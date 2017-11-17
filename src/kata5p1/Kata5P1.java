@@ -29,7 +29,7 @@ public class Kata5P1 {
         while ((mail = reader.readLine()) != null) {
             if (!mail.contains("@")) continue;
             query = "INSERT INTO MAIL2 (mail) VALUES ('" + mail + "')";
-               statement.executeUpdate(query);
+            statement.executeUpdate(query);
         }
     }
     
